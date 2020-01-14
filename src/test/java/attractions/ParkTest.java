@@ -28,4 +28,9 @@ public class ParkTest {
     public void hasVisitCount() {
         assertEquals(0, park.getVisitCount());
     }
+
+    @Test
+    public void hasImplementedIReviewed() {
+        assertEquals(9,park.getRating());
+    }
 }

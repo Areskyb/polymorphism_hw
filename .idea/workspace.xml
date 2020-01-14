@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac045795-6ee8-4e33-b497-41028b77310c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ac045795-6ee8-4e33-b497-41028b77310c" name="Default Changelist" comment="added test for dodgems">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/Attraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Attraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/Dodgems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Dodgems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/attractions/RollerCoaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/RollerCoaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/CandyflossStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/CandyflossStall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/IceCreamStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/IceCreamStall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/Stall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/Stall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/TobaccoStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/TobaccoStall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/attractions/DodgemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/attractions/DodgemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/attractions/ParkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/attractions/ParkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/attractions/RollercoasterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/attractions/RollercoasterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stalls/CandyflossStallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stalls/CandyflossStallTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stalls/IceCreamStallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stalls/IceCreamStallTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stalls/TobaccoStallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stalls/TobaccoStallTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/attractions/RollerCoaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/attractions/RollerCoaster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/attractions/RollercoasterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/attractions/RollercoasterTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,23 +55,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RollercoasterTest">
-    <configuration name="PlaygroundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DodgemTest.hasImplementationForSpecificVisitorAndShouldChargeHalfPrice">
+    <configuration name="All in ThemeParkStartPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="attractions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="attractions" />
-      <option name="MAIN_CLASS_NAME" value="attractions.PlaygroundTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaygroundTest.shouldReturnTrueOverFifteen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DodgemTest.hasImplementationForSpecificVisitorAndShouldChargeHalfPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +73,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="attractions" />
-      <option name="MAIN_CLASS_NAME" value="attractions.PlaygroundTest" />
-      <option name="METHOD_NAME" value="shouldReturnTrueOverFifteen" />
+      <option name="MAIN_CLASS_NAME" value="attractions.DodgemTest" />
+      <option name="METHOD_NAME" value="hasImplementationForSpecificVisitorAndShouldChargeHalfPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DodgemTest.hasImplementationandReturnsDefaultPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemeParkStartPoint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="attractions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="attractions" />
+      <option name="MAIN_CLASS_NAME" value="attractions.DodgemTest" />
+      <option name="METHOD_NAME" value="hasImplementationandReturnsDefaultPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,22 +107,6 @@
       <option name="PACKAGE_NAME" value="attractions" />
       <option name="MAIN_CLASS_NAME" value="attractions.RollercoasterTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TobaccoStallTest.shouldReturnFalseLessThan18" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThemeParkStartPoint" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stalls.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stalls" />
-      <option name="MAIN_CLASS_NAME" value="stalls.TobaccoStallTest" />
-      <option name="METHOD_NAME" value="shouldReturnFalseLessThan18" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DodgemTest.hasImplementationForSpecificVisitorAndShouldChargeHalfPrice" />
+        <item itemvalue="JUnit.DodgemTest.hasImplementationandReturnsDefaultPrice" />
+        <item itemvalue="JUnit.All in ThemeParkStartPoint" />
         <item itemvalue="JUnit.RollercoasterTest" />
         <item itemvalue="JUnit.TobaccoStallTest.shouldReturnTrueOver18" />
-        <item itemvalue="JUnit.TobaccoStallTest.shouldReturnFalseLessThan18" />
-        <item itemvalue="JUnit.PlaygroundTest" />
-        <item itemvalue="JUnit.PlaygroundTest.shouldReturnTrueOverFifteen" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +148,14 @@
       <option name="presentableId" value="Default" />
       <updated>1579012674449</updated>
     </task>
+    <task id="LOCAL-00001" summary="implement ISecurity and tests">
+      <created>1579035919162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579035919162</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +168,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implement ISecurity and tests" />
+    <MESSAGE value="all atractions and salls implements IReviewed now" />
+    <MESSAGE value="add ITicket implementation to RollerCoaster class" />
+    <MESSAGE value="fixed getRating implementation and added Rollercoaster ITicketed implementation too" />
+    <MESSAGE value="added test for dodgems" />
+    <option name="LAST_COMMIT_MESSAGE" value="added test for dodgems" />
   </component>
   <component name="masterDetails">
     <states>
