@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac045795-6ee8-4e33-b497-41028b77310c" name="Default Changelist" comment="" />
+    <list default="true" id="ac045795-6ee8-4e33-b497-41028b77310c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/RollerCoaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/RollerCoaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/attractions/RollercoasterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/attractions/RollercoasterTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -16,7 +24,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WOvIAB5nO3CyweimvwfWiWFoRJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579012822358" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -33,15 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TobaccoStallTest.shouldReturnTrueOver18">
-    <configuration name="All in ThemeParkStartPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThemeParkStartPoint" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RollercoasterTest">
     <configuration name="PlaygroundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
       <extension name="coverage">
@@ -69,6 +71,21 @@
       <option name="MAIN_CLASS_NAME" value="attractions.PlaygroundTest" />
       <option name="METHOD_NAME" value="shouldReturnTrueOverFifteen" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RollercoasterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemeParkStartPoint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="attractions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="attractions" />
+      <option name="MAIN_CLASS_NAME" value="attractions.RollercoasterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RollercoasterTest" />
         <item itemvalue="JUnit.TobaccoStallTest.shouldReturnTrueOver18" />
         <item itemvalue="JUnit.TobaccoStallTest.shouldReturnFalseLessThan18" />
         <item itemvalue="JUnit.PlaygroundTest" />
         <item itemvalue="JUnit.PlaygroundTest.shouldReturnTrueOverFifteen" />
-        <item itemvalue="JUnit.All in ThemeParkStartPoint" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +144,17 @@
       <updated>1579012674449</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
